@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: mtn-momo-bot
-    env: node
-    buildCommand: npm install
-    startCommand: node index.js
-    healthCheckPath: /health
